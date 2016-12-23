@@ -1,0 +1,160 @@
+.container {
+
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+#text {
+    width: 90%;
+    height: 40px;
+    margin: 15px;
+    font-size: 25px;
+    border: none;
+    transition: box-shadow .2s ease;
+    border-radius: 2px;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.50);
+}
+
+#text:hover {
+    -webkit-box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.50);
+}
+
+#search-button {
+    height: 40px;
+    width: 50px;
+    font-size: 20px;
+    position: absolute;
+    margin: 13px 10px 10px -68px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#search-button:focus {
+    outline: none;
+}
+
+.inputs-check {
+    width: 50%;
+    font-size: 17px;
+    margin-left: 1px;
+    font-family: tahoma;
+}
+
+.inputs-check input{
+        vertical-align: middle;
+}
+
+
+#list {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 17px;
+    font-family: tahoma;
+    cursor: pointer; 
+    width: 90%;
+    margin: 0 auto
+}
+
+#list div{
+   transition: background-color .2s ease; 
+    padding: 1px 36px;
+}
+
+
+
+
+
+.strEmployer {
+    width: 50px;
+    display: inline-block;
+}
+
+
+.oneEmployerInRow:hover {
+    color: white;
+    text-decoration: none;
+      background-color: #848484;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.modal-dialog {
+    text-align: left;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+}
+
+.modal-dialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    background: #fff;
+}
+
+.close {
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    right: .25em;
+    top: .25em;
+}
+
+.close:hover {
+    color: #c12f48;
+}
+
+
+
+#img{
+    width: auto;
+
+    display: inline-block;
+    float: left;
+
+}
+
+.modal-info {
+    display: inline-block;
+    padding-left: 15px;
+    width: 250px;
+}
+
+.modal-dialog{
+    
+}
+
+.modal-dialog .label{
+    
+}
+
+.modal-dialog .modal-name{
+    display: inline;
+}
