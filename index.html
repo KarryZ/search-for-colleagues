@@ -1,11 +1,15 @@
 <html lang="ru">
 
 <head>
-    <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>List of employees</title>
+    <link rel="shortcut icon" href="../image/favicon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="index.css"> </head>
 
 <body>
-    <div class="container">
+    <div class="content">
         <input type="text" id="text">
         <input type="button" id="search-button" value="&#128269" onclick="searchPerson()">
         <div class="inputs-check">
@@ -18,22 +22,22 @@
         <div id="openModal" class="modal-dialog">
             <div> <span onclick="closeModal()" title="Закрыть" class="close">X</span> <div id="employer-photo"><img id="img"></div>
                 <div class="modal-info">
-                    <div> <span class="form-field label">
+                    <div class="modal-info__item"> <span class="form-field label">
                        Полное имя: 
                     </span>
                         <div id="modal-name"></div>
                     </div>
-                    <div> <span class="form-field label">
+                    <div class="modal-info__item"> <span class="form-field label">
                        Пол: 
                     </span>
                         <div id="sex"></div>
                     </div>
-                    <div> <span class="form-field label">
+                    <div class="modal-info__item"> <span class="form-field label">
                        Возраст: 
                     </span>
                         <div id="age"></div>
                     </div>
-                    <div> <span class="form-field label">
+                    <div class="modal-info__item"> <span class="form-field label">
                        Семейное положение:
                     </span>
                         <div id="status"></div>

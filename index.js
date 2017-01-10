@@ -11,10 +11,10 @@ function Employer(name, surname, age,sex, status, image) {
 }
 var arrOfEmployer = [];
 (function addEmployersToArr() {
-    arrOfEmployer.push(new Employer("Костя", "Петров", 25, "муж", "женат", "костя.jpg"));
-    arrOfEmployer.push(new Employer("Маша", "Мышкина", 27, "жен", "не замужем", "маша.jpg"));
-    arrOfEmployer.push(new Employer("Дима", "Котиков", 23,"муж", "холост", "дима.jpeg"));
-    arrOfEmployer.push(new Employer("Настя", "Лисова", 35, "жен", "замужем", "настя.jpg"));
+    arrOfEmployer.push(new Employer("Костя", "Петров", 25, "мужской", "женат", "костя.jpg"));
+    arrOfEmployer.push(new Employer("Маша", "Мышкина", 27, "женский", "не замужем", "маша.jpg"));
+    arrOfEmployer.push(new Employer("Дима", "Котиков", 38,"мужской", "холост", "дима.jpeg"));
+    arrOfEmployer.push(new Employer("Настя", "Лисова", 35, "женский", "замужем", "настя.jpg"));
 })();
 
 function getUserInput() {
@@ -73,7 +73,7 @@ function openModal(employee) {
     var img = document.getElementById("img");
     img.src = employee.image;
     document.getElementById("employer-photo").appendChild(img); 
-    modal.style.display = "block";
+    modal.style.display = "inline-block";
 }
 
 function closeModal() {
